@@ -6,7 +6,6 @@ const menuLinks = mobileSidebar.querySelectorAll("a");
 
 function toggleMenu() {
   mobileSidebar.classList.toggle("-translate-x-full");
-
   mobileMenuOverlay.classList.toggle("hidden");
   setTimeout(() => {
     mobileMenuOverlay.classList.toggle("opacity-0");
