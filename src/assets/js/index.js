@@ -14,7 +14,6 @@ function toggleMenu() {
 
   document.body.classList.toggle("overflow-hidden");
 }
-
 openMenuBtn.addEventListener("click", toggleMenu);
 closeMenuBtn.addEventListener("click", toggleMenu);
 mobileMenuOverlay.addEventListener("click", toggleMenu);
